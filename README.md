@@ -16,6 +16,8 @@ This is a small project I coded for my IT classes. It features:
 - hashtags
 - simple profiles
 
+Aside from PHP it also uses Bootstrap, JQuery and Ajax.
+
 It probably has alot of bugs since it was my first contact with PHP and MySQL.
 
 CSS by Kola.
