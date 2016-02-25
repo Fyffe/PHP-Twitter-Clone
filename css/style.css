@@ -1,0 +1,145 @@
+
+body{
+  background: rgb(237,233,196) no-repeat center center;
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(237,233,196,1) 0%, rgba(252,165,35,1) 100%) center center no-repeat;
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(237,233,196,1)), color-stop(100%,rgba(252,165,35,1))) center center no-repeat;
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(237,233,196,1) 0%,rgba(252,165,35,1) 100%) center center no-repeat;
+  background: -o-radial-gradient(center, ellipse cover,  rgba(237,233,196,1) 0%,rgba(252,165,35,1) 100%) center center no-repeat;
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(237,233,196,1) 0%,rgba(252,165,35,1) 100%) center center no-repeat;
+  background: radial-gradient(ellipse at center,  rgba(237,233,196,1) 0%,rgba(252,165,35,1) 100%) center center no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ede9c4', endColorstr='#fca523',GradientType=1 ) no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+textarea{
+  resize: none;
+}
+
+.jumbotron{
+  padding:10px;
+  background: #eeeeee;
+}
+
+#counter{
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.tweet{
+  border-color: #337ab7;
+  margin-bottom: 1px;
+  padding: 5px 20px;
+  color: #333333;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.tweet:hover{
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.username-small{
+  color: inherit;
+}
+
+.tweet-content{
+  color: inherit;
+  word-break: break-all;
+  font-size: 1rem;
+}
+
+.dropdown-toggle:after{
+  display: none;
+}
+
+.navbar form{
+  margin: 0;
+}
+
+.img-navbar{
+  height: 2.5rem;
+}
+
+#navbar-main{
+  background-image: url('../logo.png');
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center 5px;
+
+  color: #333333;
+  font-weight: bold;
+
+}
+
+#navbar-main input{
+  font-weight: normal;
+}
+
+.img-mention{
+  height: 1.8rem;
+  margin: 0;
+}
+
+.mention-timestamp{
+  opacity: 0.7;
+}
+
+
+.btn:hover, .btn, a:link, a:hover, .dropdown-item, .dropdown-item:hover, #navbar-main, .tweet{
+  transition: color, background-color 0.3s;
+  -webkit-transition: color, background-color 0.3s;
+}
+
+.panel-tweet, .panel-user{
+  color: #333333;
+  margin-bottom: 0;
+  background: rgba(255, 252, 204, 0.25);
+}
+
+.btn-remove{
+  padding: 5px;
+  background: none;
+}
+
+.footer{
+  position: fixed;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.4);
+  line-height: 42px;
+  padding: 0;
+  bottom: 0;
+  width: 320px;
+  left: -280px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+  -webkit-transition: 0.3s
+
+}
+
+
+.footer::after{
+  content: ">>";
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  float: right;
+  margin-top: -42px;
+}
+
+footer:hover{
+  left: 0;
+  background: rgba(255, 255, 255, 1);
+}
+
+footer:hover::after{
+  content: "<<";
+}
+
+.list-absolute-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
